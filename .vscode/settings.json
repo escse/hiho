@@ -1,6 +1,7 @@
 {
     "python.linting.pylintEnabled": false,
     "files.associations": {
-        "iosfwd": "cpp"
+        "iosfwd": "cpp",
+        "iostream": "cpp"
     }
 }

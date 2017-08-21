@@ -16,7 +16,6 @@ int main(int argc, const char *argv[]) {
         c = count(s.begin(), s.end(), '0');
         d = s.size() - a;
         minVal = b + c;
-        cout << a << ":" << b << ":" << c << ":"<< d << endl;
         for (int i = 0; i < s.size(); ++i) {
             if (s[i] == '0') {
                 a += 1;
@@ -25,7 +24,6 @@ int main(int argc, const char *argv[]) {
                 b += 1;
                 d -= 1;
             }
-            cout << a << ":" << b << ":" << c << ":"<< d << endl;
             minVal = min(minVal, b + c);
         }
         cout << minVal << endl;

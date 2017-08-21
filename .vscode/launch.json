@@ -5,7 +5,7 @@
             "name": "(lldb) Launch",
             "type": "cppdbg",
             "request": "launch",
-            "program": "${workspaceRoot}/a.out",
+            "program": "${workspaceRoot}/contest2/a.out",
             "args": [],
             "stopAtEntry": false,
             "cwd": "${workspaceRoot}",

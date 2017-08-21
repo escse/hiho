@@ -1,7 +1,0 @@
-{
-    "python.linting.pylintEnabled": false,
-    "files.associations": {
-        "iosfwd": "cpp",
-        "iostream": "cpp"
-    }
-}

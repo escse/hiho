@@ -1,9 +1,11 @@
 #include <iostream>
-#include <limits>
+#include <vector>
+#include <string>
+using namespace std;
+
 int main() {
-    auto max = std::numeric_limits<int>::max();
-    auto inf = std::numeric_limits<int>::infinity();
- 
-    // if(inf > max)
-        std::cout << inf << " is greater than " << max << '\n';
+    int x[] = {1,2,3};
+    // istream_iterator<int> iend;
+    vector<int> v(istream_iterator<int>(cin), (istream_iterator<int>()));
+    for (auto i: v) cout << i << " ";
 }

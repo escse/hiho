@@ -2,3 +2,7 @@
 *.dSYM
 .DS_Store
 .vscode
+.gitignore
+d挑战程序
+test.*
+other

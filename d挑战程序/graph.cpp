@@ -80,7 +80,18 @@ void dijkstras(int s) {
 }
 
 //floyd-warshall 算法
-
+int d[MAX_V][MAX_V];
+int V;
+// 可以处理负边
+void floyd_warshall() {
+    for (int k = 0; k < V; ++k) {
+        for (int i = 0; i < V; ++i) {
+            for (int j = 0; j < V; ++j) {
+                d[i][j] = min(d[i][j], d[i][k] + d[k][j])
+            }
+        }
+    }
+}
 
 int main(int argc, const char *argv[]) {
     
